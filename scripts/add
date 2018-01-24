@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+sum=0
+
+
+for numbers in $*
+do 
+ sum=$(($1+$2+$3+$4))
+done
+
+echo $sum

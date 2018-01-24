@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo -n "Enter a name to search for: "
+read name
+
+
+grep -i $name ~uli101/2017c/phonebook
